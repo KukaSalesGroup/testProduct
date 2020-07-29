@@ -1,0 +1,41 @@
+/** 
+ * Variables
+ */
+
+// Colors
+$color-base: #fff;                             // Related to: color of main text color
+$color-primary: #587dc7;                       // Related to: color of link on main page
+$color-secondary: rgb(91, 138, 165);           // Related to: color of category title
+
+$color-white: #222;                            // Related to: color of dividing line between profile picture and the list of blog posts
+$color-gray: lighten($color-base, 25%);          // Related to: color and opacity of the paragraph under the profile picture 
+$color-gray-border: lighten($color-base, 5%);    // Related to: color of button borders seen on each blog post
+$color-gray-bg: lighten($color-base, 25%);       // Related to: color of button border for social media links
+
+// Typographic
+$typographic-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+$typographic-root-font-size: 100;                // Related to: paragraph line spacing
+$typographic-base-font-size: 16px;               // Related to: font size for all text 
+$typographic-small-font-size: 12px;              // Related to: font size for "All rights reserved" text
+
+$typographic-base-line-height: 1.625;            // Define line height for paragraphs
+
+$typographic-base-font-color: $color-base;       // Related to: color of main page paragraph color. Also each blog posts headings and paragraph
+$typographic-link-p-font-color: $color-primary;  // Related to: color of links on each blog post
+$typographic-link-s-font-color: $color-secondary;// Related to: color of links on each blog post (on hover)
+
+$typographic-leading: round(16 * ($typographic-root-font-size / 100) * $typographic-base-line-height);
+
+// Buttons
+$button-height: 35px;
+$button-border-radius: 20px;
+
+// Layout
+$layout-post-single-width: 945px;
+$layout-post-width: $layout-post-single-width - 305px;
+
+$layout-width: 1070px;
+$layout-breakpoint-sm: 685px;
+$layout-breakpoint-md: 960px;
+$layout-breakpoint-lg: 1100px;
